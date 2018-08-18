@@ -1,0 +1,40 @@
+* {
+	border: solid;
+	border-width: 1px;
+}
+
+html {
+	border-color: #a947ff;
+	
+}
+	
+body {
+	border-color: #ff0000;
+}
+
+div {
+	border-color: #0000ff;
+}
+
+p {
+	border-color: #00ff00;
+	border-width: 2px;
+}
+
+span {
+	border-color: #a52a2a;
+	border-width: 3px;
+	border-style: dotted;
+}
+
+a {
+	border-color: #f88379;
+	border-width: 2px;
+	border-style: dashed;
+}
+
+.radius {
+	border-color: #ffa500;
+	border-width: 2px;
+	border-radius: 20px;
+}

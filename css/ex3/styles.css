@@ -1,0 +1,23 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Arial;
+	text-align: left;
+	align-items: left;}
+
+h1 {
+	font-size: 60px;
+	color: #0000FF;
+}
+
+p {
+	color: #9b9b9b;
+}
+
+div {
+	font-style: italic;
+	color: #FFFF00;
+}
+
+a {
+	color: #00FF00;
+}

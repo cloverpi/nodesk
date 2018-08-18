@@ -1,0 +1,16 @@
+{
+  "name": "learning-things",
+  "version": "0.0.1",
+  "description": "This is a package that will do things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+	"uglify": "uglifyjs index.js --output script.js"
+  },
+  "author": "C. Humber",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

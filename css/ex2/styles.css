@@ -1,0 +1,27 @@
+body {
+	background-color: #A2A2A2;
+	font-family: Arial;
+	text-align: left;
+	align-items: left;
+	justify-content: center;
+	height: 90vh;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 28px;
+	color: #0000FF;
+}
+
+p {
+	color: #00FF00;
+}
+
+div {
+	font-style: italic;
+	color: #FFFF00;
+}
+
+a {
+	color: #FF0000;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "jokester",
+  "version": "0.0.1",
+  "description": "A program that makes jokes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "author": "C. Humber",
+  "license": "ISC",
+  "dependencies": {
+    "one-liner-joke": "^1.0.0"
+  }
+}

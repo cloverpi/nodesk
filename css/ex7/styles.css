@@ -1,0 +1,15 @@
+img {
+	vertical-align: super;
+}
+
+button {
+	vertical-align: top;
+}
+
+button > img {
+	vertical-align: middle;
+}
+
+#wtf {
+	vertical-align: middle;
+}

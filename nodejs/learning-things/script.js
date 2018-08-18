@@ -1,0 +1,1 @@
+var davidisNoob=true;var loganisNoob=false;var chrisisNoob=false;console.log("Welcome to the oracle, I will verify any statment you make");console.log("David is a noob == "+(davidisNoob==true));console.log("Chris is a noob == "+(chrisisNoob==true));console.log("Logan is a noob == "+(loganisNoob==true));

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login My Dude</title>
+	</head>
+	<body>
+		<h2>Login</h2>
+		<form action="./login.html" method="get" enctype="application/x-www-form-urlencoded">
+			<label for="Username">Username:</label>
+			<input type="text" name="username" placeholder="Username" maxlength="30" id="Username">
+			<br>
+			<label for="password">Password:</label>
+			<input type="password" name="password" placeholder="password" maxlength="20" id="password">
+			<br>
+			<br>
+			<br>
+			<fieldset>
+				<legend>Which NHL team is the best?</legend>
+				<input type="radio" name="nhlfan" value="leafs">Maple Leafs<br>
+				<input type="radio" name="nhlfan" value="None">None<br>
+			</fieldset>
+			<br>
+			<br>
+			<fieldset>
+				<legend>Which NHL teams are the worst?</legend>
+				<select name="badteams" multiple="multiple">
+					<option value="tml">Toronto Maple Leafs</option>
+					<option value="mhabs">Montreal Canadians</option>
+					<option value="bruins" selected>Boston Bruins</option>
+					<option value="NYR">New York Rangers</option>
+					<option value="NYI">New York Islanders</option>
+					<option value="Flyers">Philadelphia Flyers</option>
+					<option value="sabers">Buffalo Sabers</option>
+				</select>
+			</fieldset>
+					
+			<fieldset>
+				<legend>Tell me why you picked the items you did</legend>
+				<textarea name="reason" cols="80" rows="20"></textarea>
+			</fieldset>
+			<input type="submit" name="Login" value="Login">
+		</form>
+	</body>
+	
+</html>

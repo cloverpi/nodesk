@@ -1,0 +1,28 @@
+body {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: Arial, Helvitica;
+	font-size: 16px;
+}
+
+h1 {
+	color: #f47933;
+}
+
+p {
+	text-align: justify;
+}
+
+img.left {
+	float: left;
+	border-color: #f47933;
+}
+
+img {
+	border: 2px;
+	border-color: transparent;
+	margin: 20px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
